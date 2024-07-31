@@ -220,7 +220,7 @@ h1{
 
 
 .Mercury__page{
-    background-image: url(./images/Vector\ 2.png);
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/Vector\ 2.png);
     flex-direction: row;
 }
 
@@ -235,7 +235,7 @@ h1{
 
 .Venus__page{
     flex-flow: row-reverse;
-    background-image: url(./images/Venus\ Vector.png);
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/Venus\ Vector.png);
     padding-left:2rem;
 }
 
@@ -252,7 +252,7 @@ h1{
 }
 
 .Earth__page{
-    background-image: url(./images/EarthVector.png);
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/EarthVector.png);
     background-size: cover;
     flex-direction: column;
 }
@@ -296,7 +296,7 @@ h1{
 }
 
 .Mars__page{
-    background-image: url(./images/Venus\ Vector.png);
+    background-image: url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png),url(./images/Venus\ Vector.png);
 }
 
 .Mars__other__decription{
@@ -341,7 +341,7 @@ h1{
 
 .Jupiter__page{
     flex-direction: row-reverse;
-    background-image:url(./images/Vector.png);
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png),url(./images/Vector.png);
 }
 
 .Jupiter__page__boxes{
@@ -349,7 +349,7 @@ h1{
 }
 
 .Saturn__page{
-    background-image: url(./images/Vector.png);
+    background-image: url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png),url(./images/Vector.png);
 }
 .Saturn__page__content{
     margin: 2rem;
@@ -362,7 +362,7 @@ h1{
 
 .Uranus__page{
     flex-direction: column-reverse;
-    background-image: url(./images/Vector\ Earth.png);
+    background-image: url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png),url(./images/Vector\ Earth.png);
 }
 
 
@@ -373,7 +373,7 @@ h1{
 
 .Neptune__page{
     position: relative;
-    background-image: url(./images/Vector.png);
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/Vector.png);
 }
 
 .Neptune__page__content{
