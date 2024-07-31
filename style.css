@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+:root{
+    --Heading-font-size:3rem;
+}
+
+body{
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+
+.navbar__title{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar__planet__list{
+    display: flex;
+    list-style: none;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.navbar__planet__list__item {
+    padding-left: 2rem;
+}
+
+.dropdown{
+   display: none;
+   list-style: none;
+   
+}
+
+.dropdownBtn:hover .dropdown{
+    display: flex;
+    position: absolute;
+    /* padding: 1rem; */
+}
+
+.dropdown li{
+    background-color: black;
+    padding: 1rem;
+}
+
+
+.mainContent{
+    display: flex;
+    flex-direction: column;   
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/Vector.png);
+    background-size: 100% 100%;
+}
+
+.page__summary{
+    display: flex;
+}
+
+
+.background__img1{
+    position:absolute;
+    right: 38%;
+    z-index:1;
+    top:14vh;
+}
+
+.background__img2{
+    position: absolute;
+    top:58vh;
+    right: 70.5%;
+    z-index:1;
+}
+
+.bottomRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.center{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.right{
+    position: relative;
+}
+
+.heading{
+    font-size: 7rem;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.description__Galactic{
+    padding: 2rem;
+    font-size: 1.15rem;
+}
+
+.learn{
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-image: linear-gradient(to bottom right,rgb(13, 20, 120), rgb(150, 19, 19));
+    border-radius: 10px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    right:50%;
+}
+
+.LearnButton{
+    display: flex;
+    place-content: center;
+}
+
+/* General page Configuration */
+.page{
+    display: flex;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+h1{
+    font-size: var(--Heading-font-size);
+    margin-bottom: 2rem;
+}
+
+.boxes{
+    display: flex;
+}
+
+.page__content{
+    padding-left: 4rem;
+}
+
+.page__description{
+    margin: 2rem 0;
+}
+
+.page__box{
+    display: flex;
+    margin: 3rem;
+    border: purple solid 3px;
+    border-radius:5px ;
+    background-image: linear-gradient(to bottom right, rgb(28, 16, 58),rgb(70, 6, 70));
+    width: 250px;
+}
+
+.Box__img{
+    padding: 1rem;
+}
+
+.Box__info{
+    padding: 1rem;
+}
+
+.Box__heading{
+    font-size: 0.75rem;
+}
+
+.Box__heading__info{
+    font-size: 2rem;
+    overflow-wrap: break-word;
+}
+
+
+/* specific page usage */
+
+.Sun__page{
+    flex-direction: column;
+    background-image:url(./images/Clip\ path\ group.png),url(./images/Main_contentvector.png), url(./images/Vector.png);
+}
+
+.Sun__img{
+    width: 100%;
+}
+
+.Ellipse{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.Sun__page__content{
+    width:50%;
+}
+
+
+.Mercury__page{
+    background-image: url(./images/Vector\ 2.png);
+    flex-direction: row;
+}
+
+.Mercury__page__content{
+    padding: 5rem;
+}
+
+.Mercury__page__boxes{
+    display: grid ;
+    grid-template-columns: auto auto;
+}
+
+.Venus__page{
+    flex-flow: row-reverse;
+    background-image: url(./images/Venus\ Vector.png);
+    padding-left:2rem;
+}
+
+.Venus__page__boxes{
+    flex-direction: column;
+}
+
+.Venus__h1{
+    padding-top: 4rem;
+}
+
+.Venus__page__description{
+    padding-bottom: 3rem;
+}
+
+.Earth__page{
+    background-image: url(./images/EarthVector.png);
+    background-size: cover;
+    flex-direction: column;
+}
+
+.Earth__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Earth__description{
+    margin:3rem  0 0 5rem ;
+    width: 50%;
+    padding-right: 5rem;
+}
+
+.Rocket{
+    position: absolute;
+    top:40%;
+}
+
+.Moon{
+    display: flex;
+    width:100%;
+}
+
+.Moon__h2{
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.Moon__description{
+    text-align: right;
+    width: 40%;
+    margin-left: 30%;
+    padding-right: 1rem;
+}
+
+.Earth__page__description{
+    margin:2rem;
+    margin-bottom: 1rem;
+}
+
+.Mars__page{
+    background-image: url(./images/Venus\ Vector.png);
+}
+
+.Mars__other__decription{
+    display: flex;
+}
+
+.Mars__h1{
+    margin: 2rem;
+}
+
+.Mars__page__description{
+    margin: 2rem;
+}
+
+.Martian__Moon{
+    padding-top: 5rem; 
+    position: relative;   
+}
+
+.Martian__Moon__h2{
+    font-size: 3rem;
+    padding: 0rem 3rem ;
+}
+
+.Mars__arrow{
+    position: absolute;
+    left: -5rem;
+    top: 0.25rem;
+}
+
+.Martian__Moon__description{
+    padding: 0rem 3rem;
+}
+
+.Mars__page__boxes{
+    margin-right: 5rem;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+
+
+.Jupiter__page{
+    flex-direction: row-reverse;
+    background-image:url(./images/Vector.png);
+}
+
+.Jupiter__page__boxes{
+    flex-direction: column;
+}
+
+.Saturn__page{
+    background-image: url(./images/Vector.png);
+}
+.Saturn__page__content{
+    margin: 2rem;
+   
+}
+
+.Saturn__page__boxes{
+    flex-direction: column;
+}
+
+.Uranus__page{
+    flex-direction: column-reverse;
+    background-image: url(./images/Vector\ Earth.png);
+}
+
+
+.Uranus__page__content{
+    display: flex;
+    margin: 2rem;
+}
+
+.Neptune__page{
+    position: relative;
+    background-image: url(./images/Vector.png);
+}
+
+.Neptune__page__content{
+   position: absolute;
+   text-align: center;
+   margin: 2rem 20rem;
+   top:5%;
+}
+
+.Neptune__page__boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    background-color: rgba(23, 14, 14, 0.893);
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+    margin: 3rem;
+}
+
+.footer h1{
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.Email__form{
+    display: flex;
+    margin:2rem;
+    border: 5px white solid;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.Email__form input{
+    padding: 0rem 1.5rem; 
+    border: 0px;
+    border-radius: 50px;
+    outline-style: none;
+}
+
+.Email__form button{
+    font-size: 1rem;
+    display: flex;
+    gap: 1rem;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-image: linear-gradient(to bottom right,blue,red);
+}
+
+.Form__arrow{
+    background-color: aliceblue;
+    border-radius: 45%;
+    padding: 0rem 0.5rem;
+}

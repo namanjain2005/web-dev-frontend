@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+
+:root{
+    --Heading-font-size:3rem;
+}
+
+body{
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+.page{
+    display: flex;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+h1{
+    font-size: var(--Heading-font-size);
+    margin-bottom: 2rem;
+}
+
+.boxes{
+    display: flex;
+}
+
+.page__content{
+    padding-left: 4rem;
+}
+
+.page__description{
+    margin: 2rem 0;
+}
+
+.page__box{
+    display: flex;
+    margin: 3rem;
+    border: purple solid 3px;
+    border-radius:5px ;
+    background-image: linear-gradient(to bottom right, rgb(28, 16, 58),rgb(70, 6, 70));
+    width: 250px;
+}
+
+.Box__img{
+    padding: 1rem;
+}
+
+.Box__info{
+    padding: 1rem;
+}
+
+.Box__heading{
+    font-size: 0.75rem;
+}
+
+.Box__heading__info{
+    font-size: 2rem;
+    overflow-wrap: break-word;
+}
+
+.Earth__page{
+    background-image: url(./images/EarthVector.png);
+    background-size: cover;
+    flex-direction: column;
+}
+
+.Earth__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Earth__description{
+    margin:3rem  0 0 5rem ;
+    width: 50%;
+    padding-right: 5rem;
+}
+
+.Rocket{
+    position: absolute;
+    top:40%;
+}
+
+.Moon{
+    display: flex;
+    width:100%;
+}
+
+.Moon__h2{
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.Moon__description{
+    text-align: right;
+    width: 40%;
+    margin-left: 30%;
+    padding-right: 1rem;
+}
